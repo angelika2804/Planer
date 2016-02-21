@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Planer++</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="logowanie">Logowanie</string>
+    <string name="login">Login</string>
+    <string name="haslo">Hasło</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="logowanie_ok">Logowanie udane!</string>
+    <string name="logowanie_blad">Niepoprawny login lub hasło.</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Kalendarz</item>
+        <item>Planer</item>
+        <item>Wyloguj</item>
+    </string-array>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_people</item>
+    </array>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_home_fragment">Zadanie</string>
+    <string name="dodaj_zadanie">Dodaj zadanie</string>
+    <string name="db_login">kalendarzplaner</string>
+    <string name="db_pass">projektzsi</string>
+    <string name="zadanie_dodane">Zadanie dodane!</string>
+    <string name="zadanie_usuniete">Zadanie usunięte!</string>
+    <string name="zadanie_edytowane">Zadanie zmodyfikowane!</string>
+    <string name="nazwa_zadania">"Nazwa zadania: "</string>
+    <string name="poczatek_zadania">"Początek zadania: "</string>
+    <string name="koniec_zadania">"Koniec zadania: "</string>
+    <string name="date_selected"></string>
+    <string name="przypisz_pracownikow">Przypisz pracowników do zadania:</string>
+    <string name="zapisz">Zapisz</string>
+    <string name="usun_zadanie">Usuń zadanie</string>
+    <string name="aktualizuj">Odśwież</string>
+    
+
+</resources>

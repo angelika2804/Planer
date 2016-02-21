@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     
+    <TextView
+            android:id="@+id/text_login"
+            android:text="@string/login"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentBottom="true"
+        	android:layout_alignParentLeft="true"
+        	android:layout_marginBottom="400dp"
+        	android:layout_marginLeft="40dp"/>
+
+        <TextView
+            android:id="@+id/text_haslo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/text_login"
+            android:layout_below="@+id/edit_login"
+            android:layout_marginTop="30dp"
+            android:text="@string/haslo" />
+
+        <EditText
+            android:id="@+id/edit_haslo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/text_haslo"
+            android:layout_alignBottom="@+id/text_haslo"
+            android:layout_toRightOf="@+id/text_haslo"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edit_login"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/text_login"
+            android:layout_alignRight="@+id/edit_haslo"
+            android:layout_toRightOf="@+id/text_haslo"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/but_zaloguj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_haslo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="@string/zaloguj" />
+
+        <TextView
+            android:id="@+id/text_logowanie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/edit_login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="@string/logowanie"
+            android:textSize="@dimen/abc_text_size_large_material" />
+     
+ 
+</RelativeLayout>
